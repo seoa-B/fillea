@@ -265,16 +265,13 @@ body{
         margin-bottom: 70px;
     }
 }
-@media (max-width:380px){
+@media (max-width:500px){
     #signature{
-        margin: 0 auto;
+        width: 100%;
     }
-    #signature h2{
-        font-size: 60px;
-    }
-    #signature ul{
-        margin: 0px 100px;
-    }
+    #signature .teatin img{
+        width: 90%;
+    } 
 }
 
 /* section2 */
