@@ -377,6 +377,14 @@ body{
         padding: 140px 0;
     }
 }
+@media (max-width:500px){
+    #section2{
+        width: 100%;
+    }
+    #section2 .tT{
+        margin: 0 10px;
+    }
+}
 
 /* section3 */
 /* 공통 */
