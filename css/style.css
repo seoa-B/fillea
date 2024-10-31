@@ -421,7 +421,42 @@ h4{
 #section3 .img_box{
     padding: 70px 0;
 }
+#section3 .img_box .tea1, .tea2, .tea3, .tea4, .tea5, .tea6, .tea7, .tea8{
+    animation : teaani 1.5s infinite linear;
+}
+#section3 .img_box .tea2{
+    animation-delay: 0.5s;
+}
+#section3 .img_box .tea3{
+    animation-delay: 0.6s;
+}
+#section3 .img_box .tea4{
+    animation-delay: 0.7s;
+}
+#section3 .img_box .tea5{
+    animation-delay:0.8s;
+}
+#section3 .img_box .tea6{
+    animation-delay: 0.9s;
+}
+#section3 .img_box .tea7{
+    animation-delay: 1s;
+}
+#section3 .img_box .tea8{
+    animation-delay: 1.1s;
+}
 
+@keyframes teaani{
+    0%{
+        transform:translate(0%,-20%);
+    }
+    50%{
+        transform:translate(0%,-30%); 
+    }
+    100%{
+        transform:translate(0%,-20%);
+    }
+}
 
 /* tablet 이하 */
 @media (max-width:1550px){
