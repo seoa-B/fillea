@@ -11,14 +11,12 @@ ul,ol{
 }
 html{
     font-size: 18px;
-    /* rem의 기준크기-설정값 조정(본인 웹사이트 디자인에 따라서) */
 }
 body{
     font-family: 'Montserrat';
     font-size: 18px;
     /* line-height: 1.2rem; */
     color: #483632;
-    /* font-family, font-size 설정값 조정 */
 }
 
 /* header */
